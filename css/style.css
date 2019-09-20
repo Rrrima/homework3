@@ -1,7 +1,7 @@
 /*Text & Background Style*/
 html{
 	font-family: 'Quicksand',sans-serif;
-	background-image: url("images/pidgeon-background.jpg");
+	background-image: url("../images/pidgeon-background.jpg");
 	background-color:#dddddd;
 	background-repeat:no-repeat;
 }
@@ -39,6 +39,7 @@ thead th{
 	padding: 10px;
 	text-align: center;
 	color: white;
+	text-transform: uppercase;
 	background-color: #7e0830;
 }
 
@@ -57,7 +58,6 @@ tbody td,tbody th{
 	border-width:2px 0 0 0;
 	border-style: solid;
 	border-color: black;
-	padding,margin:0; 
 }
 tbody tr:nth-child(even){
 	background-color: #dddddd
@@ -66,8 +66,19 @@ tbody tr:hover{
 	background-color:#fab9cf
 }
 
+tbody tr:last-child td:last-child{
+	border-radius: 0 0 0 10px;
+	overflow:hidden;
+}
+
+tbody tr:last-child td:first-child{
+	border-radius: 0 0 10px 0;
+	overflow:hidden;
+}
+
 /*Footer Style*/
 footer{
+	text-align: center;
 	min-height:60px;
 	width:100%;
 	background-color: black;
