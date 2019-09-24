@@ -4,21 +4,25 @@ html{
 	background-image: url("../images/pidgeon-background.jpg");
 	background-color:#dddddd;
 	background-repeat:no-repeat;
+	
 }
 h1{
 	font-size: 2em;
 	line-height: 1.5;
-	color: #c12258
+	color: #c12258;
+	padding-left: 10px
 }
 p{
 	color: black;
 	font-size: 18px;
 	padding-top:15px;
+	margin:10px;
 }
 a{
 	color: #c12258;
 	text-decoration: underline;
 	font-size: 18px;
+	margin:10px;
 }
 
 :focus{
@@ -32,7 +36,8 @@ table{
 	 border-collapse: separate;
 	 border-spacing: 0;
 	 border-radius:10px;
-	 overflow: hidden
+	 overflow: hidden;
+	 margin:10px;
 }
 thead th{
 	min-width: 150px;
@@ -58,6 +63,7 @@ tbody td,tbody th{
 	border-width:2px 0 0 0;
 	border-style: solid;
 	border-color: black;
+	padding: 15px;
 }
 tbody tr:nth-child(even){
 	background-color: #dddddd
